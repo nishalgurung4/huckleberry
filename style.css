@@ -10,6 +10,9 @@ body {
 }
 
 /* Add styles here! */
+html {
+  font-size: 18px;
+}
 h1 {
   font-size: 2rem;
   margin-bottom: 32px;
@@ -17,7 +20,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
 }
-main p {
+p {
   font-size: 1rem;
 }
 strong {
@@ -38,8 +41,7 @@ main {
 }
 header p {
   font-size: 1.25rem;
-  width: 392px;
-  max-width: 100%;
+  max-width: 392px;
   margin-top: 24px;
   margin-bottom: 0px;
 }
@@ -53,8 +55,7 @@ header p {
   width: fit-content;
 }
 .max-width-wrapper {
-  width: 768px;
-  max-width: 100%;
+  max-width: 768px;
   margin-left: auto;
   margin-right: auto;
   padding: 48px 0px;
@@ -63,3 +64,4 @@ header p {
 .intro-chunk {
    padding: 0px 40px;
  }
+
